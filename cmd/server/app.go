@@ -34,8 +34,8 @@ func main() {
 		ErrorLog: logger,
 	}
 
-	server.ListenAndServe()
 	logger.Println("Waiting for requests at http://0.0.0.0:8080/")
+	server.ListenAndServe()
 }
 
 func mainHandler() http.Handler {
