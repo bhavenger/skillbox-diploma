@@ -44,7 +44,7 @@
    ```
 4. Запустить:
    ```shell
-   docker-compose run
+   docker-compose up
    ```
    or
    ```shell
